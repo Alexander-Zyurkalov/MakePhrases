@@ -1,0 +1,19 @@
+@startuml
+  package SNEnglish{
+    class WordPhraseRelation{
+      @HEADER
+      id                     
+      srt_phrase_id
+      english_word_id
+      shown
+      created_at
+      updated_at
+      {static} was_updated?(rowHash,the_row_was_created)
+      set_attrs(rowHash)
+      add_columns_to_csv(row)
+      {static} save_csv(csv_database)
+    }
+    WordPhraseRelation <|-- Base
+  }
+
+@enduml

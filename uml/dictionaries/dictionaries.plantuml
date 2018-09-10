@@ -1,0 +1,35 @@
+@startsalt
+{
+
+  {+
+    Choose a dictionary: | ^My English-Russian^ | [share] |[new dictionary]
+  }
+
+
+  --
+  {+
+    adding new dictionary
+    --
+    {
+      Name of the dictionary:  | "My new dict      "
+      What language to learn: | ^English         ^
+      What language to translate to: | ^Russian         ^
+    }
+    [add]
+  }
+  --
+  {+
+    {sharing dictionary}
+    --
+    {
+        Search a user by:  {
+         (X) | User name
+         () |E-mail
+        }
+    }
+    { "                " |   [Find] }
+    { Choose a user: | ^Alexandr Zyurkalov^ }
+  }
+  }
+}
+@endsalt

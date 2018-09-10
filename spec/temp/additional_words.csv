@@ -1,0 +1,227 @@
+﻿"english","russian","sound","picture","example","prevPhrase1","EnglishPhrase1","nextPhrase1","prevRussianPhrase1","RussianPhrase1","nextRussianPhrase1","sound1","prevPhrase2","EnglishPhrase2","nextPhrase2","prevRussianPhrase2","RussianPhrase2","nextRussianPhrase2","sound2","prevPhrase3","EnglishPhrase3","nextPhrase3","prevRussianPhrase3","RussianPhrase3","nextRussianPhrase3","sound3","count","regex1","date"
+"negotiate","вести переговоры","negotiate - [sound:negotiate__gb_1.mp3] <br> negotiates - [sound:negotiates__gb_1.mp3] <br> negotiated - [sound:negotiated__gb_1.mp3] <br> negotiating - [sound:negotiating__gb_1.mp3] <br> ","<img src='2973454.png'/>","<br><br>
+The government will not negotiate with terrorists.<br><br>
+We have been negotiating for more pay.<br><br>
+a strong negotiating position<br><br>
+negotiating skills<br><br>
+to negotiate a deal/contract/treaty/settlement<br><br>
+We successfully negotiated the release of the hostages.<br><br>
+The climbers had to negotiate a steep rock face.<br><br>
+He safely negotiated the slippery stepping stones.<br><br>
+He successfully negotiated the slippery steps.<br><br>
+I managed to negotiate successfully with the authorities.<br><br>
+Rents are individually negotiated between landlord and tenant.<br><br>
+The flight of steps was quite difficult to negotiate with a heavy suitcase.<br><br>
+The parameters of the job are being continually negotiated.<br><br>
+They have refused to negotiate on this issue.<br><br>
+They were forced to negotiate directly with the rebels.<br><br>
+We are negotiating for the release of the prisoners.<br><br>
+a carefully negotiated series of concessions<br><br>
+negotiating directly with the rebels<br><br>
+negotiating on behalf of Britain<br><br>
+those negotiating on behalf of the government<br><br>
+to negotiate between the two sides<br><br>
+Her financial adviser is negotiating on her behalf.<br><br>
+I had just negotiated the entire length of Oxford Street.<br><br>
+She managed to negotiate a permanent contract with the firm.<br><br>
+She negotiated her way past the hot ovens.<br><br>
+The car negotiated the bends of the twisting mountain road.<br><br>
+The rats had to negotiate the mazes to obtain food.<br><br>
+Up to 10 000 vehicles a day negotiate this narrow, winding road.<br><br>
+We still need to negotiate the details of the contract.<br><br>
+We then had to negotiate a steep rock face.<br><br>
+You have to negotiate two rather sharp corners.<br><br>
+'negotiate (with somebody) (for/about something)' -- to try to reach an agreement by formal discussion<br><br>
+'negotiate something' -- to arrange or agree something by formal discussion<br><br>
+'negotiate something' -- to successfully get over or past a difficult part on a path or route","","","","","","negotiate -  <br> negotiates -  <br> negotiated -  <br> negotiating -  <br> ","","","","","","","","","","","","","","","","0","((negotiated|negotiates|negotiate))|(negotiate)","180117"
+"mitigate","смягчать","mitigate - [sound:mitigate__gb_1.mp3] <br> mitigates - [sound:mitigates__gb_1.mp3] <br> mitigated - [sound:mitigated__gb_1.mp3] <br> mitigating - [sound:mitigating__gb_1.mp3] <br> ","<img src='2943268.png'/>","In Red Hat Enterprise Linux 7 you can <b>mitigate</b> this issue by setting the following option in the OpenSSH client's configuration file, either global (/etc/ssh/ssh_config) or user specific (~/.ssh/config):<br><br>
+action to mitigate poverty<br><br>
+Soil erosion was mitigated by the planting of trees.<br><br>
+'mitigate something' -- to make something less harmful, serious, etc.","","","","","","mitigate -  <br> mitigates -  <br> mitigated -  <br> mitigating -  <br> ","","","","","","","","","","","","","","","","0","((mitigated|mitigates|mitigate))|(mitigate)","180117"
+"habitually","привычно, по привычке, обычно","habitually - [sound:habitually__gb_1.mp3] <br> ","<img src='3396840.png'/>","<br><br>
+the dark glasses he habitually wore<br><br>
+We are in an era where politicians habitually lie about everything.<br><br>
+'habitually' -- in a way that is usual or typical of somebody/something<br><br>
+'habitually' -- in a way that is annoying or difficult to stop, often because it has become a habit","","","","","","habitually -  <br> ","","","","","","","","","","","","","","","","0","((habituallied|habituallies|habitually))|(habitually)","180117"
+"settle","успокаиваться, униматься, согласиться на что-либо","settle - [sound:settle__gb_1.mp3] <br> settles - [sound:settles__gb_1.mp3] <br> settled - [sound:settled__gb_1.mp3] <br> settling - [sound:settling__gb_1.mp3] <br> ","<img src='3488363.png'/>","<br><br>
+to settle a dispute/an argument/a matter<br><br>
+It's time you settled your differences with your father.<br><br>
+I want this thing settled.<br><br>
+There is pressure on the unions to settle.<br><br>
+The company has agreed to settle out of court (= come to an agreement without going to court).<br><br>
+It's all settled—we're leaving on the nine o'clock plane.<br><br>
+Good, that's settled, then.<br><br>
+Bob will be there? That settles it. I'm not coming.<br><br>
+He had to settle his affairs (= arrange all his personal business) in Paris before he could return home.<br><br>
+It's been settled that we leave on the nine o'clock plane.<br><br>
+She settled in Vienna after her father's death.<br><br>
+This region was settled by the Dutch in the nineteenth century.<br><br>
+Ellie settled back in her seat.<br><br>
+He settled himself comfortably in his usual chair.<br><br>
+I settled her on the sofa and put a blanket over her.<br><br>
+She settled the blanket around her knees.<br><br>
+The baby wouldn't settle.<br><br>
+I took a pill to help settle my nerves.<br><br>
+This should settle your stomach.<br><br>
+Dust had settled on everything.<br><br>
+Two birds settled on the fence.<br><br>
+I don't think the snow will settle (= remain on the ground without melting).<br><br>
+His gaze settled on her face.<br><br>
+The contents of the package may have settled in transit.<br><br>
+Please settle your bill before leaving the hotel.<br><br>
+The insurance company is refusing to settle her claim.<br><br>
+Let me settle with you for the meal.<br><br>
+I'll pay now—we can settle up later.<br><br>
+After much deliberation, he finally settled on a fur rug.<br><br>
+After six months the company finally settled with the unions.<br><br>
+Don’t drink it yet. Let the grounds settle.<br><br>
+Finally they settled down to watch an old movie.<br><br>
+He has now settled permanently in London.<br><br>
+He settled back in his chair to watch television.<br><br>
+He settled himself more comfortably in his chair.<br><br>
+He was anxious and couldn’t settle.<br><br>
+Hopes of settling the conflict peacefully are fading.<br><br>
+I hoped that the dust would settle quickly and the incident be forgotten.<br><br>
+I ran well but still had to settle for second.<br><br>
+She felt she wasn’t yet ready to settle down.<br><br>
+She kept fussing around, refusing to let him settle.<br><br>
+She settled down for a quiet doze on the sofa.<br><br>
+Slowly dusk began to settle.<br><br>
+The company has agreed to settle out of court.<br><br>
+The kids settled happily into their new school.<br><br>
+The matter has not yet been finally settled.<br><br>
+They prepared to settle in for the night.<br><br>
+Unable to settle, she trailed around the house all day.<br><br>
+a fertile area that was densely settled in early times<br><br>
+All the loose ends should be settled within 48 hours.<br><br>
+Bob will be there? That settles it. I’m not coming.<br><br>
+Good, that’s settled, then.<br><br>
+He had to settle his affairs in Paris before he could return home.<br><br>
+I’ll pay now—we can settle up later.<br><br>
+I’m delighted that all this has been settled amicably.<br><br>
+It’s all settled —we’re leaving on the nine o’clock plane.<br><br>
+It’s time you settled your differences with your father.<br><br>
+Some snow fell but it didn’t settle.<br><br>
+Talks will be held in an attempt to settle the dispute.<br><br>
+The union has been urged to settle as quickly as possible.<br><br>
+They used the last of the money to settle their debts.<br><br>
+This argument must be settled once and for all.<br><br>
+This is a matter that can only be settled by a family court.<br><br>
+When the dust had settled we saw the piles of rubble.<br><br>
+He waited for the dust to settle after the election before making any new decisions.<br><br>
+‘Who would do such a thing?’ ‘Maybe someone with an old score to settle.’<br><br>
+'settle (something)' -- to put an end to an argument or a disagreement<br><br>
+'settle' -- to decide or arrange something finally<br><br>
+'+ adv./prep.' -- to make a place your permanent home<br><br>
+'settle something' -- to make your permanent home in a country or an area as colonists<br><br>
+'settle' -- to make yourself or somebody else comfortable in a new position<br><br>
+'settle something + adv./prep.' -- to put something carefully in a position so that it does not move<br><br>
+'settle' -- to become or make somebody/something become calm or relaxed<br><br>
+'settle (on/over something)' -- to fall from above and come to rest on something; to stay for some time on something<br><br>
+'settle (something)' -- to sink slowly down; to make something do this<br><br>
+'settle' -- to pay the money that you owe<br><br>
+'settle' -- an old-fashioned piece of furniture with a long wooden seat and a high back and arms, often also with a box for storing things under the seat","","","","","","settle -  <br> settles -  <br> settled -  <br> settling -  <br> ","","","","","","","","","","","","","","","","0","((settled|settles|settle))|(settle)","180117"
+"salary advance payment","аванс","[sound:28279365-631170000.mp3]","","","","","","","","","","","","","","","","","","","","","","","","0","((salaried|salaries|salary) *(advanced|advances|advance) *(paymented|payments|payment))|(salary *advance *payment)","180117"
+"overdue","просроченный, запоздалый","overdue - [sound:overdue__gb_1.mp3] <br> ","<img src='393554.png'/>","This is a great formula if you assume that the card is <b>overdue</b>. an <b>overdue</b> card that is answered correctly should get a new interval that is at least as long as the old, but also should receive a bonus if far more days have elapsed in the original interva<br><br>
+an overdue payment/library book<br><br>
+The rent is now overdue.<br><br>
+Her baby is two weeks overdue.<br><br>
+This car is overdue for a service.<br><br>
+overdue reforms<br><br>
+A book like this is long overdue.<br><br>
+These reforms are long overdue.<br><br>
+This system is overdue for reform.<br><br>
+2% interest will be charged on overdue payments.<br><br>
+A book like this is long overdue.<br><br>
+My library books were overdue.<br><br>
+The government has finally promised to introduce some very overdue reforms.<br><br>
+'overdue' -- not paid, done, returned, etc. by the required or expected time<br><br>
+'overdue' -- that should have happened or been done before now","","","","","","overdue -  <br> ","","","","","","","","","","","","","","","","0","((overdued|overdues|overdue))|(overdue)","180117"
+"futile","бесполезный","futile - [sound:futile__gb_1.mp3] <br> ","<img src='2945900.png'/>","Exporting might be another option, but I think it would be <b>futile</b> since the scheduling information is stored as a date (this might just be how it's displayed tho).<br><br>
+a futile attempt/exercise/gesture<br><br>
+Their efforts to revive him were futile.<br><br>
+It would be futile to protest.<br><br>
+My appeal proved futile.<br><br>
+Their attempts were impressive but ultimately futile.<br><br>
+an utterly futile struggle for justice<br><br>
+It was a futile gesture as the real damage had already been done.<br><br>
+It would be futile to protest.<br><br>
+She made one last futile effort to unlock the door.<br><br>
+She wrapped her arms around her in a futile attempt to keep warm.<br><br>
+'futile' -- having no purpose because there is no chance of success","","","","","","futile -  <br> ","","","","","","","","","","","","","","","","0","((futiled|futiles|futile))|(futile)","180117"
+"blackout","выключение света на сцене. затемнённая сцена, временная потеря памяти","blackout - [sound:blackout__gb_1.mp3] <br> ","<img src='81129.png'/>","<br><br>
+The government imposed a news blackout during the crisis.<br><br>
+It used to take hours to travel home in the blackout.<br><br>
+She had a blackout and couldn't remember anything about the accident.<br><br>
+The government imposed a news blackout.<br><br>
+The storm caused blackouts in many areas.<br><br>
+They met during a blackout in the war.<br><br>
+'blackout' -- a period when there is no light as a result of an electrical power failure<br><br>
+'blackout' -- a situation when the government or the police will not allow any news or information on a particular subject to be given to the public<br><br>
+'blackout' -- a period of time during a war when all lights must be put out or covered at night, so that they cannot be seen by an enemy attacking by air<br><br>
+'blackout' -- a covering for windows that stops light being seen from outside, or light from outside from coming into a room<br><br>
+'blackout' -- a temporary loss of consciousness, sight or memory","","","","","","blackout -  <br> ","","","","","","","","","","","","","","","","0","((blackouted|blackouts|blackout))|(blackout)","180117"
+"attest","свидетельствовать, подтверждать, удостоверять","attest - [sound:attest__gb_1.mp3] <br> attests - [sound:attests__gb_1.mp3] <br> attested - [sound:attested__gb_1.mp3] <br> attesting - [sound:attesting__gb_1.mp3] <br> ","<img src='2240281.png'/>","<br><br>
+Contemporary accounts attest to his courage and determination.<br><br>
+She is, as countless stories about her attest, deeply religious.<br><br>
+to attest a will<br><br>
+The signature was attested by two witnesses.<br><br>
+'attest (to something)' -- to show or prove that something is true<br><br>
+'attest (something)' -- to state that you believe that something is true or genuine, for example in court","","","","","","attest -  <br> attests -  <br> attested -  <br> attesting -  <br> ","","","","","","","","","","","","","","","","0","((attested|attests|attest))|(attest)","180117"
+"amenity","приятность, удобства, удовольствия, всё, что способствует хорошему настроению, отдыху,коммунальные удобства","amenity - [sound:amenity__gb_1.mp3] <br> ","<img src='2225056.png'/>","<br><br>
+The campsite is close to all local amenities.<br><br>
+Many of the houses lacked even basic amenities (= baths, showers, hot water, etc.).<br><br>
+The building will be developed as a public amenity.<br><br>
+The campsite is close to all local amenities.<br><br>
+The flats lacked basic amenities.<br><br>
+The hotel has excellent amenities.<br><br>
+They will provide an amenity for local residents.<br><br>
+a hotel with all modern amenities<br><br>
+the diverse cultural amenities of cities<br><br>
+Many of the houses lacked even basic amenities.<br><br>
+The area now has a far higher standard of amenity.<br><br>
+'amenity' -- a feature that makes a place pleasant, comfortable or easy to live in","","","","","","amenity -  <br> ","","","","","","","","","","","","","","","","0","((amenitied|amenities|amenity))|(amenity)","180117"
+"familiarly","бесцеремонно, привычно  3) близко","familiarly - [sound:familiarly__gb_1.mp3] <br> ","<img src='1714496.png'/>","<br><br>
+John Hunt, familiarly known to his friends as Jack<br><br>
+He touched her cheek familiarly.<br><br>
+The elephant's nose or, more familiarly, trunk, is the most versatile organ in the animal kingdom.<br><br>
+'familiarly' -- in a friendly and informal manner, sometimes in a way that is too informal to be pleasant<br><br>
+'familiarly' -- in the way that is well known to people","","","","","","familiarly -  <br> ","","","","","","","","","","","","","","","","0","((familiarlied|familiarlies|familiarly))|(familiarly)","180117"
+"familiar","хорошо знакомый, близкий, привычный","familiar - [sound:familiar__gb_1.mp3] <br> ","<img src='3550914.png'/>","<br><br>
+to look/sound/taste familiar<br><br>
+He's a familiar figure in the neighbourhood.<br><br>
+Something about her voice was vaguely familiar.<br><br>
+I couldn’t see any familiar faces in the room.<br><br>
+The smell is very familiar to everyone who lives near a bakery.<br><br>
+Violent attacks are becoming all too familiar (= sadly familiar).<br><br>
+an area with which I had been familiar since childhood<br><br>
+By now you will be familiar with the one-way system in the centre of town.<br><br>
+Are you familiar with the computer software they use?<br><br>
+You seem to be on very familiar terms with your tutor.<br><br>
+After a few drinks her boss started getting too familiar for her liking.<br><br>
+Her face looked strangely familiar.<br><br>
+His face looked awfully familiar.<br><br>
+His face was instantly familiar, even after all those years.<br><br>
+I was now getting much more familiar with the local area.<br><br>
+I’m not overly familiar with these issues.<br><br>
+The kitchen smelled warm and inviting and blessedly familiar.<br><br>
+The name sounded vaguely familiar to her.<br><br>
+The place felt faintly familiar to me.<br><br>
+The report’s conclusions were already familiar enough to the government.<br><br>
+The room looked distinctly familiar.<br><br>
+You will need to be thoroughly familiar with our procedures.<br><br>
+a name that was somehow familiar<br><br>
+a situation which has become all too familiar to most teachers<br><br>
+'familiar' -- well known to you; often seen or heard and therefore easy to recognize<br><br>
+'familiar with something' -- knowing something very well<br><br>
+'familiar (with somebody)' -- very informal, sometimes in a way that is unpleasant","","","","","","familiar -  <br> ","","","","","","","","","","","","","","","","0","((familiared|familiars|familiar))|(familiar)","180117"
+"duration","продолжительность, длительность","duration - [sound:duration__gb_3.mp3] <br> ","<img src='1195316.png'/>","This is a great formula if you assume that the card is overdue. an overdue card that is answered correctly should get a new interval that is at least as long as the old, but also should receive a bonus if far more days have elapsed in the original interva<br><br>
+The school was used as a hospital for the duration of the war.<br><br>
+a contract of three years’ duration<br><br>
+She stayed there for the duration of the journey.<br><br>
+Taking antibiotics will shorten the duration of the illness.<br><br>
+The next contract will be of shorter duration.<br><br>
+The overall duration of the flight was 11 hours.<br><br>
+This continued throughout the duration of their marriage.<br><br>
+We took four trains, and the overall duration of the journey was 72 hours.<br><br>
+the expected duration of the disease","","","","","","duration -  <br> ","","","","","","","","","","","","","","","","0","((durationed|durations|duration))|(duration)","180117"

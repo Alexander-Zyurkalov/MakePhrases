@@ -1,0 +1,12 @@
+@startuml
+  package SNEnglish{
+    class WordMatchingTask{
+      english_word_id
+      do_matching()
+      {static}do_matching_for_all()
+    }
+    WordMatchingTask --> EnglishWord: it finds words to find related phrases
+    WordMatchingTask --> WordPhraseRelation: it creates new relations
+    WordMatchingTask --> SrtPhrase: it checks earch srt_phrase
+  }
+@enduml

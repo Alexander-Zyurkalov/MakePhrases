@@ -1,0 +1,2 @@
+chcp 65001
+C:\tools\ruby23\bin\ruby.exe -I"D:/Personal files/Alex/English/ruby/MakePhrases/lib" .\lib\main.rb -t -d "D:\Личные файлы\Alex\English\ruby\MakePhrases\test\database.csv" -w "D:\Личные файлы\Alex\English\ruby\MakePhrases\test\words.csv" -p "D:\Личные файлы\Alex\English\ruby\MakePhrases\test\phrases.csv"

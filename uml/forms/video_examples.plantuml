@@ -1,0 +1,39 @@
+@startsalt
+{+
+
+  { Word searching: | .
+    English: | "                                     " | [search]
+    Translation: | "                                      " | [search]
+  }*
+  {+
+    1)|.| dog - собака, пес
+    | . |1st| ^I like eating dogs.   ^ | [play <&play-circle>]
+    | . |2st| ^My dog is the best dog^ | [play <&play-circle>]
+    | . |3st| ^Is this a dog?        ^ | [play <&play-circle>]
+    .|.|.|[save   ]
+    2  )|.| cat - кошка, кот | .
+    | . |1st| ^I like eating cats.   ^ | [play <&play-circle>]
+    | . |2st| ^My cat is the best cat^ | [play <&play-circle>]
+    | . |3st| ^Is this a cat?        ^ | [play <&play-circle>]
+    .|.|.|[save   ]
+  } |
+  {+
+    . . . .  .. . . . . ..|.|.| .| ...... |
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .|[<&media-play>]|  [<&media-pause>] |  [<&media-stop>]  |
+  }
+}
+
+@endsalt

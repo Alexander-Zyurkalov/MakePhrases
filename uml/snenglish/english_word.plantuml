@@ -1,0 +1,27 @@
+@startuml
+  package SNEnglish{
+    class EnglishWord{
+      {static}@HEADER
+      id
+    	english
+    	russian
+    	sound
+    	picture
+    	example
+      regex1
+      added_at
+      created_at
+      updated_at
+      was_updated?(rowHash,the_row_was_created)
+      set_attrs(rowHash)
+      add_columns_to_csv(row)
+      {static}load_csv(csv_database, last_comparing: '170101', account_name: nil, user_id:nil)
+      {static}update_phrases_count_all()
+      update_tasks()
+    }
+    EnglishWord --|> Base
+    EnglishWord --> User: creating relation in load_csv
+    EnglishWord --> WordMatchingTask
+  }
+
+@enduml

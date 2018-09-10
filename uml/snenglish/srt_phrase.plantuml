@@ -1,0 +1,22 @@
+@startuml
+package SNEnglish {
+  class SrtPhrase{
+      id
+      russian_phrase
+      english_phrase
+      sound
+      prev_phrase
+      next_phrase
+      prev_russian_phrase
+      next_russian_phrase
+      the_number_of_str
+      added_at
+      file_path
+      created_at
+      updated_at
+  }
+  SrtPhrase --|> Base
+  SrtPhrase "*" --o "*" EnglishWord: has many
+  (SrtPhrase,EnglishWord) .. WordPhraseRelation
+}
+@enduml

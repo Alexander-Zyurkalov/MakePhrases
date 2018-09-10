@@ -1,0 +1,13 @@
+@startuml
+start
+:test;
+note
+| |id|others|
+| |<#FF8080>true| |
+|<#80FF80> |<#C0C080>true|<#80FF80>false|
+| |<#FF8080>false| |
+
+end note
+
+end
+@enduml

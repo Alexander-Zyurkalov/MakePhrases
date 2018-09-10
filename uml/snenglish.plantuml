@@ -1,0 +1,22 @@
+@startuml
+abstract class ActiveRecord
+abstract class ApplicationRecord
+ActiveRecord <|-- ApplicationRecord
+package SNEnglish {
+  ApplicationRecord <|-- Base
+  abstract class Base {
+    @@CSV_OPTS = {...}
+    update_tasks()
+    set_attrs(rowHash)
+    add_columns_to_csv(row)
+    {static} was_updated?(rowHash,the_row_was_created)
+    {static} load_csv(csv_database, last_comparing: '170101')
+  }
+
+}
+!include snenglish/srt_phrase.plantuml
+!include snenglish/english_word.plantuml
+!include snenglish/word_phrase_relation.plantuml
+!include snenglish/user.plantuml
+!include snenglish/word_matching_task.plantuml
+@enduml

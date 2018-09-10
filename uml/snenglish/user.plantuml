@@ -1,0 +1,15 @@
+@startuml
+  package SNEnglish{
+    class User{
+      id
+      account_name
+    }
+    class UsersEnglishWords{
+      id
+      user_id
+      english_word_id
+    }
+    User "*" --o "*" EnglishWord: has_many
+    (User,EnglishWord) .. UsersEnglishWords
+  }
+@enduml

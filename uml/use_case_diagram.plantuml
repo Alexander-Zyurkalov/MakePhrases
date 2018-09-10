@@ -1,0 +1,69 @@
+@startuml
+left to right direction
+skinparam packageStyle rect
+:User:
+
+
+rectangle dictionaries{
+    (//work with dictionaries//) <<abstract>> as work_w_dic
+    (add a new dictionary) as add_dic
+    add_dic -|> work_w_dic
+    (choose a language to learn) as choose_lang
+    (choose a language to translate to) as choos_trans
+    (give a name for the dictionary) as give_dic_name
+    (share a dictionary with\nanother user) as share_dic
+    add_dic "1" --> "1" choose_lang: <<include>>
+    add_dic "1" --> "1" choos_trans: <<include>>
+    add_dic "1" --> "1" give_dic_name: <<include>>
+    add_dic "*" -> "*" share_dic: <<extend>>
+    share_dic <|- work_w_dic
+    (choose a user) as choose_user
+    (//find a user//) as find_user <<abstract>>
+    (find a user by e-mail) as by_email
+    (find a user by name) as by_name
+    share_dic --> choose_user : <<include>>
+    choose_user --> find_user : <<extend>>
+    find_user --> by_email : <<extend>>
+    find_user --> by_name : <<extend>>
+}
+
+rectangle Registration {
+  (Register in the system\n as a new user) as register
+  User - register
+}
+User - work_w_dic
+
+rectangle dictionary {
+    (work with words) as work_w
+    (Add a word to\nthe dictionary) as add_word
+    (Watch words in their dictionary) as list_words
+    (Edit data for a word) as edit_word
+    (Find word) as find_w
+}
+rectangle text_examples{
+
+
+}
+
+
+rectangle video{
+  (List video examples) as list_video
+  (Choose video examples for words) as choose_v_ex
+}
+User - add_word
+User -- list_words
+
+
+add_word --> edit_word:<<include>>
+User -- edit_word
+
+(Find words without examples) as find_w_examples
+
+User - find_w
+
+(Download dictionary) as download_d
+
+
+
+
+@enduml

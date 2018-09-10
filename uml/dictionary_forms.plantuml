@@ -1,0 +1,18 @@
+@startsalt
+{+
+  Type an english word or
+  translation:
+  {
+    English: | "       " | [find]
+    Translation: | "       "   | [find]
+    .| [add <&pencil>]
+  }
+--
+[download csv <&arrow-bottom>]
+  {#
+    **english word** | **traslation**
+    dog | собака | [edit <&pencil>]
+    cat | кошка  | [edit <&pencil>]
+  }
+}
+@endsalt

@@ -1,0 +1,9 @@
+@startuml
+start
+:get a word which is needed to match;
+:match it with all words;
+:add all matched words into word_phrase_relations;
+
+stop
+
+@enduml

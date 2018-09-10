@@ -1,0 +1,7 @@
+@startgantt
+project starts the 2018/04/15
+[Developing use case diagrams and user interface prototype] as [use_case] lasts 15 days
+then [Developing state machines diagrams for the user interface] as [act_d_ui] lasts 15 days
+[Developing state machines diagrams for internal activities] as [act_d_int] lasts 15 days
+[act_d_int] starts at [act_d_ui]'s end
+@endgantt

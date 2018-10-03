@@ -1,0 +1,13 @@
+@startuml
+activate script
+
+script --> SrtFixing **: <<create>>
+activate SrtFixing
+
+
+deactivate SrtFixing
+script <<-- SrtFixing --
+
+deactivate script
+
+@enduml

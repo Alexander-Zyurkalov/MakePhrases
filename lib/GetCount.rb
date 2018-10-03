@@ -8,8 +8,18 @@ OptionParser.new do |opts|
   
   filename = File.basename($0)
   opts.banner = "Usage: #{filename} [options]"
-  
  
+  # TODO describe parameters 
+  args[:csv_database] = 'D:\\Common files\\English\\database.csv'
+  opts.on('-d', '--csv_database FILE', '') do |file|    
+    args[:csv_database] = file
+  end
+ 
+  args[:csv_phrases] = '.\\phrases.csv'
+  opts.on('-p', '--phrases FILE', '') do |file|    
+    args[:csv_phrases] = file
+  end
+  
   args[:csv_words] = '.\\words.csv'
   opts.on('-w', '--csv_words FILE', '') do |file|    
     args[:csv_words] = file
@@ -47,8 +57,8 @@ require "snenglish"
 ActiveRecord::Base.establish_connection(
   adapter:  'mysql2',
   host:     'localhost',
-  username: 'root',
-  password: '',
+  username: 'dbuser',
+  password: 'dbuser',
   database: database_name
 )
 # --------

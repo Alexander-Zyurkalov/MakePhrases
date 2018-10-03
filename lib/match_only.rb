@@ -20,6 +20,11 @@ OptionParser.new do |opts|
     args[:csv_words] = file
   end
   
+  opts.on('-2', '--csv_words2 FILE', '') do |file|    
+    args[:csv_words2] = file
+  end
+  
+  
   args[:csv_phrases] = '.\\phrases.csv'
   opts.on('-p', '--phrases FILE', '') do |file|    
     args[:csv_phrases] = file
@@ -59,18 +64,22 @@ ActiveRecord::Base.establish_connection(
   password: 'dbuser',
   database: database_name
 )
-# --------
-
-
-#first = SNEnglish::WordMatchingTask.first
-#first.do_matching unless first.nil?
+## --------
+#puts "OK"
+#puts SNEnglish::EnglishWord.find_by(:id => 3510).word_count.count_id
+#puts "OK"
 #
-#first_pharse = SNEnglish::SrtPhraseMatchingTask.first
-#first_pharse.do_matching unless first_pharse.nil?
+#exit
+
+
 require 'progressbar'
+#ActiveRecord::Base.logger = Logger.new(STDOUT)
+
 def do_matching_for_all(myclass)
+  puts "Matching..."
   title =  'Matching new words with phrases' if myclass.is_a? SNEnglish::WordMatchingTask
   title =  'Matching new phrases with words' if myclass.is_a? SNEnglish::SrtPhraseMatchingTask
+  puts title
   progressbar = ProgressBar.create(
     title: title,
     format: '%e %B %p%%',
@@ -87,6 +96,7 @@ do_matching_for_all(SNEnglish::SrtPhraseMatchingTask)
 
 
 def save_csv(myclass, csv_file)
+  puts "Saving..."
   progressbar = ProgressBar.create(
     :title => "Saving #{csv_file}" ,  
     :format => '%e %B %p%%',
@@ -100,3 +110,14 @@ end
 
 save_csv(SNEnglish::WordPhraseRelation, args[:csv_phrases])
 save_csv(SNEnglish::SrtPhrase, args[:csv_database])
+
+  
+
+
+# add better tests for updates word_phrase_relations
+# add a test for adding words which already exist
+# TODO make saving CSV-files
+# TODO start saving in parse_lingual_leo
+# TODO fix showed to shown
+# TODO the same matching for phrases
+# write unit tests for the procedures 

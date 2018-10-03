@@ -38,7 +38,7 @@ module SNEnglish
     
     # TODO replace set_attr to attribute and separate status
     def set_attrs(rowHash)
-      self.english  = rowHash["english"]        
+      self.english  = rowHash["english"]
       self.russian  = rowHash["russian"]
       self.sound    = rowHash["sound"]
       self.picture  = rowHash["picture"]
@@ -91,6 +91,7 @@ module SNEnglish
     end    
     
     def self.load_csv_with_counting(csv_database, last_comparing: '170101', account_name: nil, user_id:nil)      
+      #self.joins(:word_count).load_csv csv_database, last_comparing: last_comparing do |row, obj|
       self.load_csv csv_database, last_comparing: last_comparing do |row, obj|
         yield row, obj if block_given?        
         rowHash = row.to_hash 

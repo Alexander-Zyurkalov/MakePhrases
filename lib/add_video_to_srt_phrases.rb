@@ -50,15 +50,15 @@ require "snenglish"
 ActiveRecord::Base.establish_connection(
   adapter:  'mysql2',
   host:     'localhost',
-  username: 'root',
-  password: '',
+  username: 'dbuser',
+  password: 'dbuser',
   database: database_name
 )
 
 srt_phrase = SNEnglish::SrtPhrase.find_by(english_phrase: phrase, file_path: input1)
 
 unless srt_phrase.nil?
-  puts "saving #{video_file}"
+  #puts "saving #{video_file}"
   srt_phrase.sound = "[sound:#{video_file}]"
   srt_phrase.save  
 end

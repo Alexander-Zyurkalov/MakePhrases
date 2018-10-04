@@ -50,7 +50,7 @@ describe SNEnglish::WordMatchingTask do
     expect( event.word_phrase_relations.count(:id)).to be 2
     expect( event.word_phrase_relations.where(showed: true).count(:id)).to be 1
     
-    ActiveRecord::Base.logger = Logger.new(STDOUT)
+    #ActiveRecord::Base.logger = Logger.new(STDOUT)
     SNEnglish::WordMatchingTask.do_matching_for_all    
     expect( event.word_phrase_relations.count(:id)).to be 2
     expect( event.word_phrase_relations.where(showed: true).count(:id)).to be 1    

@@ -66,10 +66,10 @@ describe SNEnglish::WordMatchingTask do
     major = english_phrase.english_words.find_by(english: 'major')    
     expect(major).to_not be nil
   end
-  it "should mark phrases related to \"major\" which already shown" do       
-    major = SNEnglish::EnglishWord.find_by(english: 'major')    
-    expect( major.word_phrase_relations.where(showed: true).count(:id)).to be 1    
-  end
+#  it "should mark phrases related to \"major\" which already shown" do       
+#    major = SNEnglish::EnglishWord.find_by(english: 'major')    
+#    expect( major.word_phrase_relations.where(showed: true).count(:id)).to be 1    
+#  end
     
       
   # TODO check repeated loading also

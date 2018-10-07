@@ -8,7 +8,7 @@ module SNEnglish
     has_many :word_phrase_relations
     has_many :srt_phrases, through: :word_phrase_relations    
     has_one :shown_phrase
-    has_one :word_count
+#    has_one :word_count
     
     @HEADER = [
                 "english","russian","sound","picture","example","prevPhrase1",
@@ -53,7 +53,7 @@ module SNEnglish
         row.push self.created_at.to_i 
         row.push self.id
         if !self.word_count.nil?
-          row.push self.word_count.count_id;
+          row.push obj.word_phrase_relations.count();
         else 
           row.push "0"
         end
@@ -96,14 +96,13 @@ module SNEnglish
         yield row, obj if block_given?        
         rowHash = row.to_hash 
         if obj.nil?
-          obj = self.find_by( id: rowHash['id'] );
+          obj = self.find_by( id: rowHash['id'] )
         end
-        
+#        obj.word_phrase_relations.
         #RussianPhrase3
-        row[23] = obj.nil? || obj.word_count.nil? ? 
+        row[23] = obj.nil? || obj.word_phrase_relations.nil? ? 
           0 : 
-          obj.word_count.count_id
-        
+          obj.word_phrase_relations.count()        
       end
     end 
 

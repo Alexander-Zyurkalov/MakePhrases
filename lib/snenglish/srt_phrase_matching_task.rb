@@ -20,16 +20,17 @@ module SNEnglish
     
     def do_matching
       self.transaction do
+        #FROM (english_words w left JOIN shown_phrases s on w.id = s.english_word_id)
         sql =<<SQL
 INSERT IGNORE INTO word_phrase_relations (english_word_id, srt_phrase_id,created_at,updated_at)
   SELECT distinct w.id, #{self.srt_phrase_id}, now(), now()
-  FROM (english_words w left JOIN shown_phrases s on w.id = s.english_word_id)
+  FROM english_words w 
           LEFT JOIN
        word_phrase_relations r ON r.english_word_id = w.id AND r.srt_phrase_id = #{self.srt_phrase_id}
   WHERE 
         (r.srt_phrase_id is null)
           AND         
-          "#{self.srt_phrase.english_phrase.downcase}" REGEXP LOWER(concat('\\\\b(',w.regex1,')\\\\b')) 
+          "#{self.srt_phrase.english_phrase.downcase.gsub('"', '\\\\"')}" REGEXP LOWER(concat('\\\\b(',w.regex1,')\\\\b')) 
 ;      
 SQL
 #        puts sql

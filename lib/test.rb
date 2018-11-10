@@ -1,2 +1,1 @@
-require 'srt/srt_fixing'
-srt = Srt::SrtFixing.new()
+puts "hello".sub("hel","")

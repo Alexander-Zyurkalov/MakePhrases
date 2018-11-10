@@ -43,7 +43,7 @@ module SNEnglish
                   encoding: "bom|utf-8" ) do |row|
               
               rowHash = row.to_hash 
-              next if row[0].nil? && row[1].nil? && row[2].nil?
+              next if (row[0].nil? && row[1].nil? && row[2].nil?)
               
               the_row_was_created = 
                 rowHash['id'] == nil || 
@@ -83,7 +83,7 @@ module SNEnglish
   end
 end
 require 'snenglish/user'
-require 'snenglish/users_english_words'
+require 'snenglish/users_english_word'
 require 'snenglish/srt_phrase'
 require 'snenglish/english_word'
 require 'snenglish/word_phrase_relation'

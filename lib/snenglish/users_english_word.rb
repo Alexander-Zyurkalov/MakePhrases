@@ -3,7 +3,7 @@
 # and open the template in the editor.
 
 module SNEnglish 
-  class UsersEnglishWords < ApplicationRecord
+  class UsersEnglishWord < ApplicationRecord
     belongs_to :user
     belongs_to :english_word
   end

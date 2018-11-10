@@ -15,7 +15,7 @@ OptionParser.new do |opts|
   end
   
   args[:user] = 1
-  opts.on('-u', '--user', 'Use the test database') do |user|
+  opts.on('-u', '--user USER', 'Point out a user') do |user|
     args[:user] = user
   end
   
@@ -68,8 +68,7 @@ require 'progressbar'
 def save_csv(csv_file,user)  
   puts "Saving..."  
   progressbar = ProgressBar.create(:title => "words" ,  :format => '%e %B %p%%')
-  number_of_words = SNEnglish::UsersEnglishWord.where(:user_id => user).count
-  
+  number_of_words = SNEnglish::UsersEnglishWord.where(:user_id => user).count  
   percent = 0
   i = 0
   SNEnglish::EnglishWord.save_csv(csv_file,user) do |row|    

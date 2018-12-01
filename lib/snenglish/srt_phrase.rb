@@ -21,9 +21,19 @@ module SNEnglish
               ]  
 
     def set_attrs(rowHash)
+      max_length = 755
       self.russian_phrase      = rowHash["RussianPhrase"]        
+      if !rowHash["EnglishPhrase"].nil? && rowHash["EnglishPhrase"].length > max_length
+        rowHash["EnglishPhrase"] = rowHash["EnglishPhrase"][0..max_length-1]
+      end
       self.english_phrase      = rowHash["EnglishPhrase"]
       self.sound               = rowHash["sound"]
+      if !rowHash["prevPhrase"].nil? && rowHash["prevPhrase"].length > max_length
+        rowHash["prevPhrase"] = rowHash["prevPhrase"][0..max_length-1]
+      end
+      if !rowHash["nextPhrase"].nil? && rowHash["nextPhrase"].length > max_length
+        rowHash["nextPhrase"] = rowHash["nextPhrase"][0..max_length-1]
+      end      
       self.prev_phrase         = rowHash["prevPhrase"]
       self.next_phrase         = rowHash["nextPhrase"]
       self.prev_russian_phrase = rowHash["prevRussianPhrase"]

@@ -1,1 +1,5 @@
-puts "hello".sub("hel","")
+a = "Those standards might be -- one approach to this would be to bring together the people who have been involved in inspections, if I take the example of maternity care, those involved in inspections and draw on their experience of inspecting organisations and saying having inspected and looking across our inspection so far, how would we describe or articulate in more detail at a core service area for maternity those great descriptors of outstanding, good, requires improvement and poor, so that then an issue like for example if I take a practical example, issues to do with the cleanliness of delivery rooms which have arisen in a number of inspections, your inspectors have a common sense of where that fits into their interpretation of the quality of care."
+max_length = 754
+a = a[0..max_length-1]
+puts a
+puts a.length

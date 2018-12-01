@@ -63,7 +63,7 @@ ActiveRecord::Base.establish_connection(
 )
 # --------
 
-ActiveRecord::Base.logger = Logger.new(STDOUT)
+#ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 #puts "OK"
 #puts SNEnglish::EnglishWord.find_by(:id => 1262).word_count.count_id

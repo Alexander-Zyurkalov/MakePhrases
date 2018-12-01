@@ -39,8 +39,8 @@ describe 'SrtPhrase' do
       
       phrase_in_db = SNEnglish::SrtPhrase.find_by(
           :english_phrase => @english_phrase
-        ).russian_phrase
-      expect( phrase_in_db ).to eql ''
+        ).sound
+      expect( phrase_in_db ).to eql '[sound:electron.traveling.forwards.through.time.mp4]'
       csv.close
     end
     

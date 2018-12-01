@@ -82,7 +82,7 @@ module SNEnglish
       super csv_database, last_comparing: last_comparing do |row, obj|
         yield row, obj if block_given?
         unless user.nil? || obj.nil?          
-          users_english_words = UsersEnglishWords.find_or_create_by(
+          users_english_words = UsersEnglishWord.find_or_create_by(
             user_id: user.id,
             english_word_id: obj.id
           )
